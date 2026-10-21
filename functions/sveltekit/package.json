@@ -1,0 +1,20 @@
+{
+  "name": "sveltekit-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SvelteKit SSR demo for Lambda Web Functions (adapter-node)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-node": "^6.0.0",
+    "@sveltejs/kit": "^3.1.0",
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "svelte": "^5.57.2",
+    "vite": "^8.3.4"
+  }
+}

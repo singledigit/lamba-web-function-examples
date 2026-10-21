@@ -27,6 +27,7 @@ and the [developer guide](https://docs.aws.amazon.com/lambda/latest/dg/web-funct
 | [`functions/iam-auth`](functions/iam-auth) | IAM (SigV4) authenticated endpoint | built-in `http` |
 | [`functions/express`](functions/express) | REST | [Express](https://expressjs.com/) |
 | [`functions/fastify`](functions/fastify) | REST | [Fastify](https://fastify.dev/) |
+| [`functions/sveltekit`](functions/sveltekit) | SSR with streamed `load` data, REST, NDJSON | [SvelteKit](https://svelte.dev/docs/kit) |
 
 Each folder has its own README with routes, test commands, and any protocol-specific notes.
 
